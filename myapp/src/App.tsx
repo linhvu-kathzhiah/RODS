@@ -17,7 +17,7 @@ function App() {
     { name: "Sam", age: 42, isTeacher: false },
   ];
 
-  return people[2].name + " is " + people[2].age + " years old and is a teacher: " + people[2].isTeacher;
+  return people[2].name + " is " + people[2].age + " years old ";
 }
 
 class Person {
