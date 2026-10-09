@@ -45,7 +45,17 @@ function App() {
 
   let sum :number = Add(2, 5);
 
-  return printScore("Dad");
+  return (
+    <div>
+      <div>
+        <label>Name: </label>
+        <input></input>
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+    </div>
+  )
 }
 
 class Person {
