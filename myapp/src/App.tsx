@@ -1,4 +1,32 @@
 function App() {
+  //UI
+  return (
+    <form onSubmit={submitButtonOnClick}>
+      <div>
+        <label>Name: </label>
+        <input id="name" required></input>
+      </div>
+      <div>
+        <label>Age:</label>
+        <input id="age" type="number" min="0" max="100" required></input>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  )
+  
+
+function submitButtonOnClick() {
+    let name = document.querySelector<HTMLInputElement>("#name")!;
+    let age = document.querySelector<HTMLInputElement>("#age");
+
+    if (name && age){
+      alert("Name: " + name.value + " - Age: " + age.value);
+  }
+  }
+  
+
  let isTeacher: boolean = true;
  const name: string = "Linh";
  let age: number = 16;
@@ -80,6 +108,6 @@ function printScore(parameter: string) :string {
   } catch (error) {
     return String(error);
   }
-  }
+}
 
 export default App
