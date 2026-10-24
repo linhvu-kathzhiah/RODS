@@ -1331,3 +1331,84 @@ main,
     transition-duration: 0.01ms !important;
   }
 }
+
+
+/* Language directory table */
+
+.table-section {
+  padding-bottom: 100px;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid #e9e9e0;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 8px 30px rgba(34, 61, 47, 0.04);
+}
+
+.language-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 12px;
+}
+
+.language-table th {
+  padding: 17px 18px;
+  background: #eaf0e5;
+  color: #254b3c;
+  font-size: 10px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.language-table td {
+  padding: 16px 18px;
+  border-bottom: 1px solid #efefe8;
+  color: #748077;
+  white-space: nowrap;
+}
+
+.language-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.language-table tbody tr:hover {
+  background: #f7f8f2;
+}
+
+.language-table .table-language-name {
+  color: #254b3c;
+  font-weight: 700;
+}
+
+.language-table .table-empty {
+  padding: 35px 18px;
+  color: #7d8b82;
+  text-align: center;
+}
+
+.table-note {
+  margin-top: 14px;
+  color: #89938b;
+  font-size: 11px;
+}
+
+@media (max-width: 600px) {
+  .table-section {
+    padding-bottom: 70px;
+  }
+
+  .language-table th,
+  .language-table td {
+    padding: 13px;
+  }
+}
+
+.brand-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}

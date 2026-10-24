@@ -3,6 +3,7 @@ import { useMemo, useState } from "react";
 import Papa from "papaparse";
 import csvText from "./language.csv?raw";
 import "./App.css";
+import logo from "./logo.png";
 
 // Language data structure
 interface Language {
@@ -15,6 +16,10 @@ interface Language {
   is_romanization_language: boolean;
   flag_image_path: string;
 }
+
+<div>
+<img src={logo} style={{ width: "200px", height: "100px" }} />
+</div>
 
 // Convert CSV text into language objects
 const parsedCSV = Papa.parse<Record<string, string>>(csvText, {
@@ -325,6 +330,69 @@ function App() {
             </div>
           )}
         </section>
+
+        {/* Language data table */}
+<section className="table-section" id="language-table">
+  <div className="section-heading">
+    <div>
+      <p className="section-kicker">YOUR DATASET</p>
+      <h2>Language directory<span>.</span></h2>
+      <p className="section-description">
+        Explore the complete dataset in a structured table.
+      </p>
+    </div>
+  </div>
+
+  <div className="table-wrapper">
+    <table className="language-table">
+      <thead>
+        <tr>
+          <th>Identifier</th>
+          <th>Language Code</th>
+          <th>Display Name</th>
+          <th>Native Name</th>
+          <th>Shorthand</th>
+          <th>Romanization Identifier</th>
+          <th>Romanized Entry</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {filteredLanguages.map((language) => (
+          <tr key={language.identifier}>
+            <td>{language.identifier}</td>
+            <td>{language.language_code}</td>
+            <td className="table-language-name">
+              {language.display_name}
+            </td>
+            <td>{language.native_name || "—"}</td>
+            <td>{language.shorthand || "—"}</td>
+            <td>
+              {language.romanized_language_identifier || "—"}
+            </td>
+            <td>
+              {language.identifier.toLowerCase().endsWith("-romanized")
+                ? "Yes"
+                : "No"}
+            </td>
+          </tr>
+        ))}
+
+        {filteredLanguages.length === 0 && (
+          <tr>
+            <td colSpan={7} className="table-empty">
+              No languages match your search.
+            </td>
+          </tr>
+        )}
+      </tbody>
+    </table>
+  </div>
+
+  <p className="table-note">
+    Showing {filteredLanguages.length} of {languages.length} language entries.
+  </p>
+</section>
 
         {/* About section */}
         <section className="about-section" id="about">
