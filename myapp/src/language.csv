@@ -1,0 +1,55 @@
+identifier,language_code,display_name,shorthand,native_name,romanized_language_identifier,is_romanization_language,flag_image_path
+bulgarian,bg,Bulgarian,BG,Български,bulgarian-romanized,true,https://cdn.pokedb.org/b6b2518be7c608c14ac508cf25dccd401ef2b7119f063ba2026e106a0d3589c7
+bulgarian-romanized,bg-Latn,Bulgarian (Romanized),BG-LATN,Balgarski,,true,
+catalan,ca,Catalan,CA,Català,,true,https://cdn.pokedb.org/f07a93679bce957d748eefff4c8f01ae5317d56445ccc1c7d532e100eaa82525
+chinese-cantonese,zh-yue,Chinese (Cantonese),ZH-CAN,中文 (廣東話),chinese-cantonese-romanized,true,https://cdn.pokedb.org/e45b4a13f7344c494db0ab9a4950d9113c20e0fe14c6a13b24ac4d8deb997f79
+chinese-cantonese-romanized,zh-yue-Latn,"Chinese (Cantonese, Romanized)",ZH-CAN-LATN,Gwóngdūngwá,,true,
+chinese-mandarin,zh-cmn,Chinese (Mandarin),ZH-MAN,中文 (普通话),chinese-mandarin-romanized,true,https://cdn.pokedb.org/5c63c8bab2b62668192d88afa359f5f24093acfb5d17cbda65a4dd658209551b
+chinese-mandarin-romanized,zh-cmn-Latn,"Chinese (Mandarin, Romanized)",ZH-MAN-LATN,Zhōngwén (Pǔtōnghuà),,true,
+chinese-romanized,zh-Latn,Chinese (Romanized),ZH-LATN,Zhōngwén,,true,
+chinese-simplified,zh-Hans,Chinese (Simplified),ZH-HANS,简体中文,chinese-romanized,true,https://cdn.pokedb.org/5c63c8bab2b62668192d88afa359f5f24093acfb5d17cbda65a4dd658209551b
+chinese-traditional,zh-Hant,Chinese (Traditional),ZH-HANT,繁體中文,chinese-romanized,true,https://cdn.pokedb.org/d0f46d787a7d6908831912752c6db864d9db29f8c674450d41de5d2a9c9157b9
+czech,cs,Czech,CS,Čeština,,true,https://cdn.pokedb.org/23c5fd79f91ca2b2be4750eb5cba6869724acf7d85a5cb4710f25f3e429ae7d4
+danish,da,Danish,DA,Dansk,,true,https://cdn.pokedb.org/3a21773d31e0506cbf9e3b63d47a6c91ab7c94ee14a8ab8c1cd0fa1abac7fda7
+dutch,nl,Dutch,NL,Nederlands,,true,https://cdn.pokedb.org/dd90058e492816f00bfcb80841b25fe06ed075ed24a198126a3a83b42eba3974
+english,en,English,EN,English,,true,https://cdn.pokedb.org/08da4e7589dd7df411124063d44c51ac75fbddc0db28df7d341d311f4f2c6136
+finnish,fi,Finnish,FI,Suomi,,true,https://cdn.pokedb.org/26ed52b337c4c36d836b27fd6f5a770e9d12738109b10ebcfbedbbe16f5f6b18
+french,fr,French,FR,Français,,true,https://cdn.pokedb.org/8c752d21b8a0e53d3dde7db13b9f2aa9fdb5fe7b14447c3f7b4d5d5077f1ebe7
+french-canadian,fr-CA,French (Canada),FR-CA,Français (Canada),,true,https://cdn.pokedb.org/886428fc81362886cf9ff1f206e6d163d8cd07f78f4139edf47a5d832ffa8c2d
+french-france,fr-FRA,French (France),FR-FRA,Français (France),,true,https://cdn.pokedb.org/8c752d21b8a0e53d3dde7db13b9f2aa9fdb5fe7b14447c3f7b4d5d5077f1ebe7
+german,de,German,DE,Deutsch,,true,https://cdn.pokedb.org/d98f3452e35515bdb42d87671d6cedf7d39f89178e1396663e5405ad072a953b
+greek,el,Greek,EL,Ελληνικά,greek-romanized,true,https://cdn.pokedb.org/26a52cc4f99ee1d5f112ea781ef582989d769acc720439829434dd3beace9098
+greek-romanized,el-Latn,Greek (Romanized),EL-LATN,Elliniká,,true,
+hebrew,he,Hebrew,HE,עברית,hebrew-romanized,true,https://cdn.pokedb.org/01791d3ec978464b8425999a4b4ab951504effb5ea7f6666c9bb762aa5e2d090
+hebrew-romanized,he-Latn,Hebrew (Romanized),HE-LATN,Ivrit,,true,
+hindi,hi,Hindi,HI,हिन्दी,hindi-romanized,true,https://cdn.pokedb.org/31a91e80011d2c486840671657a6d324b41a90d2d4b2c078c126438f53a7187a
+hindi-romanized,hi-Latn,Hindi (Romanized),HI-LATN,Hindī,,true,
+hungarian,hu,Hungarian,HU,Magyar,,true,https://cdn.pokedb.org/e9720c48253da796020a5fd6ae111b07b9814e6de20543f96d5669c67a22e8f3
+icelandic,is,Icelandic,IS,Íslenska,,true,https://cdn.pokedb.org/fca5128212f95c2b30f49ac33e47cb12bfaf21a78292c665714a8ab13038c0b9
+indonesian,id,Indonesian,ID,Bahasa Indonesia,,true,https://cdn.pokedb.org/0744c5c619e8bc7ccafd80655ea317d46f8f6943e29126fcd6e90be089ad2a90
+italian,it,Italian,IT,Italiano,,true,https://cdn.pokedb.org/84a359790ec13102d8f9612e404d34c72025271664343b50139c4583c678d74e
+japanese,ja,Japanese,JA,日本語,japanese-romanized,true,https://cdn.pokedb.org/254ffcc9afa3886f444700021c0bd89f3fddd22eeb200a2da0a8d45db1e6e113
+japanese-romanized,ja-Latn,Japanese (Romanized),JA-LATN,Nihongo,,true,
+korean,ko,Korean,KO,한국어,korean-romanized,true,https://cdn.pokedb.org/332682f024816b79b020d6314c69f57b27e3f3add7f0cba0705510f465aa0474
+korean-romanized,ko-Latn,Korean (Romanized),KO-LATN,Hangugeo,,true,
+malay,ms,Malay,MS,Bahasa Melayu,,true,https://cdn.pokedb.org/6fec9d1ba4f6fd295be94ea2ff2a1a0c39d090ba6250dfacd4bde7c67ca9945b
+norwegian,no,Norwegian,NO,Norsk,,true,https://cdn.pokedb.org/91cdf24f545b4cfb87c34c0799e1e8c1b0a2d9bedd635ab77de8a140b09e3ca2
+polish,pl,Polish,PL,Polski,,true,https://cdn.pokedb.org/dd371197180ed6ed689ab2913c3261345d1c32cf43156c889edd128a83c1c068
+portuguese-brazilian,pt-BR,Portuguese (Brazil),PT-BR,Português (Brasil),,true,https://cdn.pokedb.org/624c2f5a964af96f1d037ef38f04633f917dae64418e5acfd9020d6b5f449def
+portuguese-portugal,pt-PT,Portuguese (Portugal),PT-PT,Português (Portugal),,true,https://cdn.pokedb.org/d95ef4e5858d10fffc9590c0ff6602f4d08c05724b0604652da666fd1aae8999
+romanian,ro,Romanian,RO,Română,,true,https://cdn.pokedb.org/4e3514ea3946e5b5f945069f419d784ae0f94bcb8b654de69cdec90b7dd1717d
+russian,ru,Russian,RU,Русский,russian-romanized,true,https://cdn.pokedb.org/f33f3f206c291a9fd1d23481b195ee345cbbee34268e4e649510779d2177cdd7
+russian-romanized,ru-Latn,Russian (Romanized),RU-LATN,Russkiy,,true,
+slovak,sk,Slovak,SK,Slovenčina,,true,https://cdn.pokedb.org/31d17d5994ea494aa7daa7742731595dd87f0353de7645e06fd26efcc97cb235
+spanish,es,Spanish,ES,Español,,true,https://cdn.pokedb.org/4903ae6393a98744f7d455e91d415664699ea6a3687a1ea015e71bf3436c343c
+spanish-latin-america,es-419,Spanish (Latin America),ES-LA,Español (Latinoamérica),,true,https://cdn.pokedb.org/b274fb3077732777e41396a542d1268f5dc15c21a624e65117c4ecea0cec8fab
+spanish-spain,es-ES,Spanish (Spain),ES-ES,Español (España),,true,https://cdn.pokedb.org/4903ae6393a98744f7d455e91d415664699ea6a3687a1ea015e71bf3436c343c
+swedish,sv,Swedish,SV,Svenska,,true,https://cdn.pokedb.org/771282505aea04cf795c28f658e155d810411fea1d4b02405f2701e26bce2d31
+tamil,ta,Tamil,TA,தமிழ்,tamil-romanized,true,https://cdn.pokedb.org/0d57437a9d154780597e852e2f70ff599cd5ac0008c3fcb36d2fba1073893e07
+tamil-romanized,ta-Latn,Tamil (Romanized),TA-LATN,Tamiḻ,,true,
+telugu,te,Telugu,TE,తెలుగు,telugu-romanized,true,https://cdn.pokedb.org/31a91e80011d2c486840671657a6d324b41a90d2d4b2c078c126438f53a7187a
+telugu-romanized,te-Latn,Telugu (Romanized),TE-LATN,Telugu,,true,
+thai,th,Thai,TH,ภาษาไทย,thai-romanized,true,https://cdn.pokedb.org/414df2b9f4d1d9ba0288f90e79931912ade7b409a3bfc56fb25fc8d101fdae84
+thai-romanized,th-Latn,Thai (Romanized),TH-LATN,Phasa Thai,,true,
+turkish,tr,Turkish,TR,Türkçe,,true,https://cdn.pokedb.org/358e189e82b147970753a82eca7c4bac780cef26c1ef67500b7cd76626a05620
+vietnamese,vi,Vietnamese,VI,Tiếng Việt,,true,https://cdn.pokedb.org/b5f6895d6d5da26c0740d4cf69e1eb89f28629c2b95779a1145672a634be6a57
